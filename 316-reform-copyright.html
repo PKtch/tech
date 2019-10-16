@@ -122,12 +122,6 @@
                
 
             </div>
-               <aside class="main__left-aside">
-                  <div class="main__left-aside__inner">
-                     <h3>On this page</h3>
-                     <nav class="aside-toc" id="aside-toc"></nav>
-                  </div>
-               </aside>
          </div>
       </div>
 
@@ -406,26 +400,6 @@
    };
 </script>
 
-    <script src="https://pktch.github.io/tech/assets/js/html-contents.min.js?v=169077c370ab8ca62b029845f80f7fd5" defer></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function(event) {
-            htmlContents('#aside-toc', {
-                area: '.post__entry',
-                top: 2,
-                bottom: 3,
-                listType: 'o',
-                filter: function(arr) {
-                    return !arr.matches('.noOutline')
-                },
-                addIds: true,
-                addLinks: true
-            });
-
-            setTimeout(function() {
-                handleActiveClass('#aside-toc');
-            }, 0);
-        })
-    </script>
 
 <script defer src="https://pktch.github.io/tech/assets/js/scripts.min.js?v=14129b7e438f986864eb56856537aebf"></script>
 
